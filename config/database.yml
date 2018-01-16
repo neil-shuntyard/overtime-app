@@ -20,6 +20,8 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
+  username: udemy
+  password: udemy
 
 development:
   <<: *default
@@ -81,5 +83,3 @@ test:
 production:
   <<: *default
   database: Overtime_production
-  username: Overtime
-  password: <%= ENV['OVERTIME_DATABASE_PASSWORD'] %>
