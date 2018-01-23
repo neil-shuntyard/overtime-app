@@ -15,11 +15,13 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'thin'
 end
 
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'thin'
 end
 
 gem 'devise', '~> 4.2'
