@@ -16,6 +16,7 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'thin'
+  gem 'factory_bot_rails', '~> 4.8.2'
 end
 
 group :development do
